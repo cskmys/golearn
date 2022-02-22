@@ -1,0 +1,3 @@
+= golearn
+
+following pluralsight go core language https://app.pluralsight.com/paths/skill/go-core-language[path]
