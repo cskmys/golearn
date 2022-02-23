@@ -7,7 +7,7 @@
 
 // here we create a simple web server that returns a static text
 
-// here once you run the web server from either "go run ." or "./04_web_server" in the temp directory "/tmp/go-build<.....>" where you built the application using "go build ."
+// here once you run the web server from either "go run ." or "./04_web_server" in the directory where your file resides after building the application using "go build ."
 // go to web browser and type "localhost:3000" to see the static text
 // use Ctrl-C in the terminal to close the web server
 
