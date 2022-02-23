@@ -1,5 +1,6 @@
 // to just build a go application, you can do:
 // go build .
+// this will generate an executable whose name is the name of the module in the "go.mod" file in the present working directory
 
 // in Go,
 // you can write anonymous functions on the spot while passing it as an argument, without any pre-definition
@@ -7,7 +8,7 @@
 
 // here we create a simple web server that returns a static text
 
-// here once you run the web server from either "go run ." or "./04_web_server" in the directory where your file resides after building the application using "go build ."
+// here once you run the web server from either "go run ." or "./04_web_server" in the present working directory after building the application using "go build ."
 // go to web browser and type "localhost:3000" to see the static text
 // use Ctrl-C in the terminal to close the web server
 
