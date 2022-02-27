@@ -1,0 +1,3 @@
+== Go: The Big Picture
+
+Following the course https://app.pluralsight.com/library/courses/go-big-picture[here]
