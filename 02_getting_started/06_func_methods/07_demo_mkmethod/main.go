@@ -1,7 +1,7 @@
 package main
 
 import (
-	"06_demo_mkmethod/models"
+	"07_demo_mkmethod/models"
 	"fmt"
 )
 

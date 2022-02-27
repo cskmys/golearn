@@ -1,3 +1,3 @@
-module 06_demo_mkmethod
+module 07_demo_mkmethod
 
 go 1.18
