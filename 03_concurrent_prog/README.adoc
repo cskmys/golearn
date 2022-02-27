@@ -1,0 +1,3 @@
+== Concurrent Programming with Go
+
+Following the course https://app.pluralsight.com/library/courses/concurrent-programming-go[here]

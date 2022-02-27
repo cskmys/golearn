@@ -1,3 +1,9 @@
 = golearn
 
 following pluralsight go core language https://app.pluralsight.com/paths/skill/go-core-language[path]
+
+include::01_the_big_picture/README.adoc[]
+
+include::02_getting_started/README.adoc[]
+
+include::03_concurrent_prog/README.adoc[]
