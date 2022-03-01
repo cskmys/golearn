@@ -22,3 +22,9 @@ func TestDepart(t *testing.T) {
 		t.Errorf("Did not get expected result. Wanted %q, got: %q\n", expect, got)
 	}
 }
+
+func TestFailureTypes(t *testing.T) {
+	t.Error("Err signals a failed test but doesn't stop the rest of the current test from executing")
+	t.Fatal("As error didn't end the test it was possible to execute this, however fatal will fail the test and stop the execution.\nHence, you'll not see any messages in the following lines")
+	t.Error("As fatal stopped the test, this message will never be seen on screen")
+}
