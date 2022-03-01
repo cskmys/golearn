@@ -1,5 +1,5 @@
 // in Go,
-// to use standard library's testing suite, you'll need to name test files as "<filename>_test.go" and the test functions as "Test<function_ame>"
+// to use standard library's testing suite, you'll need to name test files as "<filename>_test.go" and the test functions as "Test<function_name>"("<function_name>" should start with an uppercase letter)
 // declare "package <package_name>" for white-box tests, i.e. the test has access to all the entities within the package "<package_name>"
 // declare "package <package_name>_test" for blackbox tests, i.e. the test doesn't have access to all the entities within the package "<package_name>"
 // it will need to import the "<package>" just like any other package and test what are all publicly exposed
